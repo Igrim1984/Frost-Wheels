@@ -180,60 +180,59 @@ footer {
   text-decoration: underline #007bff;
 }
 
-.aboutus-img{
-    height:400px;
-    align-self: center;
-    object-fit: cover;
+.aboutus-img {
+  height: 400px;
+  align-self: center;
+  object-fit: cover;
 }
 
-.aboutus-cards i{
-    font-size: 3rem;
+.aboutus-cards i {
+  font-size: 3rem;
 }
 
-.aboutus-cards h3{
-    font-size: 2.2rem;
-    font-weight: bold;
+.aboutus-cards h3 {
+  font-size: 2.2rem;
+  font-weight: bold;
 }
 
 @media (min-width: 992px) {
-    .aboutus-info .container {
-        padding: 0;
-      }
-    .aboutus-shadow{
-        box-shadow: inset 0 5px 10px -5px rgba(0, 0, 0, 0.4);
-    }
-    .aboutus-text {
-        padding: 5em 0;
-        transform: skew(-15deg);
-      }
-      .aboutus-text-right {
-        text-align: left;
-        padding-left: 2em;
-      }
-      .aboutus-text-left {
-        text-align: right;
-        padding-right: 2em;
-      }
-      .aboutus-img{
- 
-        transform: skew(-15deg);
-    }
+  .aboutus-info .container {
+    padding: 0;
+  }
+  .aboutus-shadow {
+    box-shadow: inset 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+  }
+  .aboutus-text {
+    padding: 5em 0;
+    transform: skew(-15deg);
+  }
+  .aboutus-text-right {
+    text-align: left;
+    padding-left: 2em;
+  }
+  .aboutus-text-left {
+    text-align: right;
+    padding-right: 2em;
+  }
+  .aboutus-img {
+    transform: skew(-15deg);
+  }
 }
 
 /* <------------------------------------------------- SERVICES -------------------------------------> */
 
 .services-hero {
-    background-image: url("../img/Services/car-3126964_1920.jpg");
-    background-position: 0 75%;
-  }
+  background-image: url("../img/Services/car-3126964_1920.jpg");
+  background-position: 0 75%;
+}
 
-  .service-hero-box{
-    position: relative;
-    height: 300px;
-    background-size: cover;
-    z-index: 0;
-  }
-  .service-hero-box p{
+.service-hero-box {
+  position: relative;
+  height: 300px;
+  background-size: cover;
+  z-index: 0;
+}
+.service-hero-box p {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -241,34 +240,67 @@ footer {
   text-transform: uppercase;
   color: white;
   text-align: center;
-  }
+}
 
-  .service-hero-box.box-one{
-    background-image: url('../img/Services/engine.jpg');
-  }
-  .service-hero-box.box-two{
-    background-image: url('../img/Services/visual.jpg');
-  }
-  .service-hero-box.box-three{
-    background-image: url('../img/Services/car-audio.jpg');
-  }
-  .service-hero-box.box-four{
-    background-image: url('../img/Services/allinone.jpg');
-  }
+.service-hero-box.box-one {
+  background-image: url("../img/Services/engine.jpg");
+}
+.service-hero-box.box-two {
+  background-image: url("../img/Services/visual.jpg");
+}
+.service-hero-box.box-three {
+  background-image: url("../img/Services/car-audio.jpg");
+}
+.service-hero-box.box-four {
+  background-image: url("../img/Services/allinone.jpg");
+}
 
-  /* <----------------------------------------- PROJECTS -------------------------------> */
+/* <----------------------------------------- PROJECTS -------------------------------> */
 
-  .projects-hero {
-    background-image: url("../img/Projects/project-hero.jpg");
-    background-position: center;
-  }
+.projects-hero {
+  background-image: url("../img/Projects/project-hero.jpg");
+  background-position: center;
+}
 
-  .projects img{
-    height: 240px;
-    object-fit: cover;
-  }
+.projects img {
+  height: 240px;
+  object-fit: cover;
+}
 
-  .projects .btn{
-    font-size: 1.4rem;
-    text-transform: uppercase;
-  }
+.projects .btn {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+/* <------------------------------------------ CONTACT ---------------------------------------? */
+
+.contact-hero {
+  background-image: url("../img/Contact/shelby-3821715_1920.jpg");
+  background-position: 0 40%;
+}
+
+.contact h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2.6rem;
+}
+
+.contact-logo {
+  font-size: 3rem;
+}
+
+.contact input,
+.contact select,
+.contact textarea {
+  font-size: 1.6rem;
+}
+
+.contact .btn {
+  padding: 0.3em 0.8em;
+  font-size: 2rem;
+}
+
+.contact-map iframe {
+  width: 100%;
+  min-height: 400px;
+}
