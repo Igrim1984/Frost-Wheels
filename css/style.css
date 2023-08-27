@@ -255,3 +255,20 @@ footer {
   .service-hero-box.box-four{
     background-image: url('../img/Services/allinone.jpg');
   }
+
+  /* <----------------------------------------- PROJECTS -------------------------------> */
+
+  .projects-hero {
+    background-image: url("../img/Projects/project-hero.jpg");
+    background-position: center;
+  }
+
+  .projects img{
+    height: 240px;
+    object-fit: cover;
+  }
+
+  .projects .btn{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+  }
