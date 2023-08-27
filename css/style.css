@@ -1,0 +1,257 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+}
+
+.hero-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+.top-hero {
+  position: relative;
+  height: 400px;
+  background-size: cover;
+  z-index: 0;
+}
+
+.top-hero-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  text-transform: uppercase;
+  height: 100%;
+}
+
+/* <------------------------------------------------- NAVBAR ---------------------------------------------> */
+
+.navbar-brand {
+  font-size: 2.6rem;
+  font-weight: bold;
+}
+
+.navbar-brand span {
+  color: blue;
+}
+.nav-link {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2.6rem;
+}
+
+.navbar-toggler {
+  font-size: 3rem;
+}
+
+/* <------------------------------------------------ HEADER -------------------------------------------> */
+
+header {
+  font-size: 2rem;
+}
+
+.carousel-item {
+  position: relative;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+.carousel-img-one {
+  background-image: url("../img/main-carousel-1.jpg");
+}
+.carousel-img-two {
+  background-image: url("../img/main-carousel-2.jpg");
+}
+.carousel-img-three {
+  background-image: url("../img/main-carousel-3.jpg");
+}
+
+@media (min-width: 1400px) {
+  .carousel-img-one {
+    background-image: url("../img/main-carousel-1-hq.jpg");
+  }
+  .carousel-img-two {
+    background-image: url("../img/main-carousel-2-hq.jpg");
+  }
+  .carousel-img-three {
+    background-image: url("../img/main-carousel-3-hq.jpg");
+  }
+  .carousel-item {
+    height: 800px;
+  }
+}
+
+/* <--------------------------------------------------- MAIN ---------------------------------------------------> */
+
+.main-item {
+  text-align: center;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* <------------------------------------------------ HOME ---------------------------------------------------> */
+
+.home-boxes {
+  padding: 5em 0;
+}
+
+.main-item i {
+  font-size: 4rem;
+}
+
+.main-item h3 {
+  font-size: 2.6rem;
+}
+
+.home-passion {
+  position: relative;
+  height: 300px;
+  background-image: url("../img/sunset-685927_1920.jpg");
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+
+.home-passion h3 {
+  font-size: 2.6rem;
+}
+
+.firm-history h2 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.firm-history h3 {
+  font-size: 2.6rem;
+  font-weight: bold;
+}
+
+/* <------------------------------------------- FOOTER ----------------------------------------------> */
+
+footer {
+  font-size: 2rem;
+}
+
+/* <----------------------------------------------- ABOUT US ---------------------------------------------> */
+
+.aboutus-hero {
+  background-image: url("../img/aboutus/highway-2025863_1920.jpg");
+  background-position: bottom;
+}
+
+.aboutus-info {
+  background-color: rgb(248, 248, 248);
+}
+.aboutus-info .container {
+  padding: 2em 5em;
+}
+.aboutus-text {
+  padding: 1.8em;
+}
+.aboutus-text-right {
+  text-align: right;
+}
+.aboutus-text-left {
+  text-align: left;
+}
+.aboutus-text h3 {
+  margin-bottom: 0.5em;
+  font-size: 2.6rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: underline #007bff;
+}
+
+.aboutus-img{
+    height:400px;
+    align-self: center;
+    object-fit: cover;
+}
+
+.aboutus-cards i{
+    font-size: 3rem;
+}
+
+.aboutus-cards h3{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+@media (min-width: 992px) {
+    .aboutus-info .container {
+        padding: 0;
+      }
+    .aboutus-shadow{
+        box-shadow: inset 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+    }
+    .aboutus-text {
+        padding: 5em 0;
+        transform: skew(-15deg);
+      }
+      .aboutus-text-right {
+        text-align: left;
+        padding-left: 2em;
+      }
+      .aboutus-text-left {
+        text-align: right;
+        padding-right: 2em;
+      }
+      .aboutus-img{
+ 
+        transform: skew(-15deg);
+    }
+}
+
+/* <------------------------------------------------- SERVICES -------------------------------------> */
+
+.services-hero {
+    background-image: url("../img/Services/car-3126964_1920.jpg");
+    background-position: 0 75%;
+  }
+
+  .service-hero-box{
+    position: relative;
+    height: 300px;
+    background-size: cover;
+    z-index: 0;
+  }
+  .service-hero-box p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  }
+
+  .service-hero-box.box-one{
+    background-image: url('../img/Services/engine.jpg');
+  }
+  .service-hero-box.box-two{
+    background-image: url('../img/Services/visual.jpg');
+  }
+  .service-hero-box.box-three{
+    background-image: url('../img/Services/car-audio.jpg');
+  }
+  .service-hero-box.box-four{
+    background-image: url('../img/Services/allinone.jpg');
+  }
